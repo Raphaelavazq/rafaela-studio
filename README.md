@@ -1,42 +1,35 @@
-# 🚀 Rafaela Studio Portfolio
+# Rafaela Studio Portfolio
 
-Welcome to my portfolio repository! This project showcases my work in strategic design and full-stack development, featuring interactive 3D elements and smooth animations.
+Professional portfolio showcasing strategic design and full-stack development work, featuring interactive 3D elements and smooth animations.
 
-### Live preview: https://www.raphaelavaz.com/
+**Live Site:** https://www.raphaelavaz.com/
 
-This project is **inspired** by the amazing work of [Abhijit Zende](https://github.com/Abhiz2411/3D-interactive-portfolio) and [Naresh Khatri](https://github.com/Naresh-Khatri/Portfolio). Their innovative approach to web design has been a huge influence. 🙏
+## Features
 
-## 🔥 Features
+### 3D Interactive Animations
 
-Here are the key highlights of my portfolio:
+- Custom interactive keyboard built with Spline
+- Each keycap represents a skill with hover-triggered descriptions
+- Smooth, responsive 3D interactions
 
-### 🎹 **3D Interactive Animations**
+### Animations & Interactions
 
-- Features a custom-made interactive keyboard built with **Spline**.
-- Each keycap represents a skill and reveals titles and descriptions on hover for an immersive experience.
-- Smooth, responsive 3D interactions that captivate visitors.
+- Powered by GSAP and Framer Motion
+- Smooth animations on scroll, hover, and element reveals
+- Motion designs that enhance user experience
 
-### ✨ **Slick Interactions & Animations**
+### Modern Design
 
-- Powered by **GSAP** and **Framer Motion**, delivering buttery-smooth animations on scroll, hover, and element reveals.
-- Creative motion designs that enhance storytelling and keep users engaged.
+- Particle effects on dark background
+- Space-themed aesthetic
+- Contemporary visual approach
 
-### 🌌 **Space-Themed Design**
+### Responsive Design
 
-- Particles floating on a dark, cosmic background simulate an outer-space vibe.
-- Adds a unique and futuristic look to the portfolio.
+- Fully responsive layout across all devices
+- Optimized for desktop and mobile experiences
 
-### 📱 **Responsive Design**
-
-- Fully responsive layout ensures the website looks and functions beautifully on all devices.
-- Optimized for both desktop and mobile experiences.
-
-### 🧠 **Innovative Web Design**
-
-- Combines cutting-edge technology with an intuitive user experience.
-- Creative use of animations and visuals to push the boundaries of modern web design.
-
-## 🛠️ Tech Stack
+## Tech Stack
 
 The portfolio website is built using the following tools and technologies:
 
@@ -44,74 +37,54 @@ The portfolio website is built using the following tools and technologies:
 - **Animations:** GSAP, Framer Motion, Spline Runtime
 - **Other Tools:** Resend, Socket.io, Zod
 
-## 🌟 Getting Started
+## Getting Started
 
-1. Clone this repository:
+Clone and run the project locally:
 
-   ```bash
-   git clone https://github.com/Raphaelavazq/3D-interactive-portfolio.git
-   ```
+```bash
+# Clone repository
+git clone https://github.com/Raphaelavazq/rafaela-studio.git
 
-2. Navigate to the project directory:
+# Navigate to directory
+cd rafaela-studio
 
-   ```bash
-   cd 3D-interactive-portfolio
-   ```
+# Install dependencies
+npm install
 
-3. Install dependencies:
+# Set up environment variables
+# Create .env.local file and add:
+# RESEND_API_KEY=your_resend_api_key_here
 
-   ```bash
-   npm install
-   ```
+# Start development server
+npm run dev
+```
 
-4. Set up environment variables:
+Open http://localhost:3000 in your browser.
 
-   ```bash
-   # Create a .env.local file in the root directory
-   touch .env.local
+## Deployment
 
-   # Add your Resend API key
-   RESEND_API_KEY=your_resend_api_key_here
-   ```
+Deployed on Vercel. View live at https://www.raphaelavaz.com/
 
-5. Start the development server:
+### Environment Variables
 
-   ```bash
-   npm run dev
-   ```
+Required for contact form functionality:
 
-6. Open your browser and navigate to:
-   ```
-   http://localhost:3000
-   ```
+- `RESEND_API_KEY` - Get your API key from [Resend](https://resend.com)
 
-## 🚀 Deployment
+Add this in Vercel project settings under Environment Variables.
 
-This project is deployed using **Vercel** for its blazing-fast performance and ease of use. You can view the live site [here](https://www.raphaelavaz.com/).
+## Acknowledgments
 
-### Setting up Resend API on Vercel
+Inspired by [Abhijit Zende](https://github.com/Abhiz2411/3D-interactive-portfolio) and [Naresh Khatri](https://github.com/Naresh-Khatri/Portfolio).
 
-1. Sign up for a [Resend](https://resend.com) account and get your API key
-2. Go to your Vercel project settings
-3. Navigate to the "Environment Variables" section
-4. Add a new environment variable:
-   - Name: `RESEND_API_KEY`
-   - Value: Your Resend API key
-5. Save the changes and redeploy your application
+## Contact
 
-Note: Make sure to keep your API key secret and never commit it to your repository.
+**Rafaela Vaz Quaresma**
 
-## 💖 Acknowledgments
+- Email: connectwithrafaela@gmail.com
+- LinkedIn: [linkedin.com/in/rafaelavazquaresma](https://www.linkedin.com/in/rafaelavazquaresma/)
+- GitHub: [github.com/Raphaelavazq](https://github.com/Raphaelavazq)
 
-A huge shoutout to [Naresh Khatri](https://github.com/Naresh-Khatri/Portfolio) for the inspiration and ideas that sparked this journey! 💡 If you're interested in creative web design, definitely check out his work.
+## License
 
-## 📬 Contact
-
-Feel free to reach out to me for collaboration, feedback, or just to say hi! 😊
-
-- **Email:** connectwithrafaela@gmail.com
-- **LinkedIn:** [linkedin.com/in/rafaelavazquaresma](https://www.linkedin.com/in/rafaelavazquaresma/)
-
----
-
-⭐ If you like this project, don't forget to give it a star!
+This project is open source and available under the MIT License.
