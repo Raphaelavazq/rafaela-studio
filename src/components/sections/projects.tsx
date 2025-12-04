@@ -29,11 +29,11 @@ const ProjectsSection = () => {
           Projects
         </h2>
       </Link>
-      <div className="relative inline-block mx-auto">
+      <div className="relative flex justify-center">
         {/* Single glassmorphism background behind all projects */}
         <div className="absolute inset-0 m-4 rounded-3xl bg-white/10 dark:bg-white/5 backdrop-blur-md border border-white/20 dark:border-white/10 shadow-2xl pointer-events-none" />
 
-        <div className="grid grid-cols-1 md:grid-cols-3 relative z-10">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 relative z-10">
           {projects.map((project, index) => (
             <Modall key={project.src} project={project} />
           ))}
