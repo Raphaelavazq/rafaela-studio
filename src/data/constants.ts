@@ -43,19 +43,18 @@ export type Skill = {
 };
 export const SKILLS: Record<SkillNames, Skill> = {
   [SkillNames.JS]: {
-    id: 1,
+    id: 9,
     name: "js",
     label: "JavaScript",
-    shortDescription: "yeeting code into the DOM since '95, no cap! 💯🚀",
+    shortDescription: "Making websites interactive and dynamic since day one",
     color: "#f0db4f",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
   },
   [SkillNames.TS]: {
-    id: 2,
+    id: 10,
     name: "ts",
     label: "TypeScript",
-    shortDescription:
-      "JavaScript's overachieving cousin who's always flexing 💯🔒",
+    shortDescription: "JavaScript with a safety net - catches bugs before users do",
     color: "#007acc",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
   },
